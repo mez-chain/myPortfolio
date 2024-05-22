@@ -4,26 +4,28 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
-  background-color: #F7F7F9;
+  background-color: #f7f7f9;
 }
 
 a {
-  color:white;
+  color: white;
   font-weight: 100;
   letter-spacing: 2px;
   text-decoration: none;
-  padding:20px 5px;
+  padding: 20px 5px;
   display: inline-block;
   width: 100%;
   text-align: center;
-  transition:all 0.5s;
+  transition: all 0.5s;
 }
 
 a:hover {
@@ -31,7 +33,7 @@ a:hover {
 }
 
 img {
-  width:100%;
+  width: 100%;
 }
 
 .container {
@@ -56,10 +58,10 @@ img {
   padding: 0 100px;
 }
 
-.headline h1{
+.headline h1 {
   font-size: 48px;
   font-weight: 700;
-  color: #091E42;
+  color: #091e42;
   margin: 0;
 }
 
@@ -73,7 +75,7 @@ img {
 .headline h3 {
   font-size: 16px;
   font-weight: 500;
-  color: #7F8CFF;
+  color: #7f8Cff;
   text-transform: uppercase;
   margin-bottom: 0;
 }
@@ -103,7 +105,7 @@ img {
   font-weight: 500;
 }
 
-.logo a{
+.logo a {
   font-size: 18px;
   font-weight: 700;
   color: #6070ff;
@@ -123,11 +125,10 @@ img {
   border: 1px solid red;
 } */
 
-@media all and (max-width:1000px) {
-}
+/* @media all and (max-width: 1000px) {
+} */
 
-
-@media all and (max-width:500px) {
+@media all and (max-width: 500px) {
   .headline {
     background-image: url('/images/header-mobile.png');
     height: 100vh;
