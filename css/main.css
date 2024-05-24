@@ -244,15 +244,14 @@ img {
   font-weight: 700;
   color: #091e42;
   text-transform: capitalize;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .general-info p {
   font-size: 16px;
   font-weight: 400;
   color: #344563;
-  margin-bottom: 0px;
-
+  margin-bottom: 0;
 }
 
 .general-info h3 {
@@ -263,7 +262,7 @@ img {
   margin-bottom: 0;
 }
 
-.general-info a {
+.aboutme .general-info a {
   font-size: 17px;
   font-weight: 500;
   color: #396df2;
@@ -275,7 +274,7 @@ img {
 }
 
 .general-info .social a {
-  border: 0px;
+  border: 0;
 }
 
 .general-info a:hover {
@@ -318,7 +317,7 @@ img {
   color: #253858;
 }
 
-.tech-info li {
+.aboutme .tech-info li {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -328,7 +327,7 @@ img {
 .tech-info .open li {
   background-color: #f7f7f9;
   border-radius: 8px;
-  padding: 20px 0px 0px 20px;
+  padding: 20px 0 0 20px;
 }
 
 .tech-info .down {
