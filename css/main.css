@@ -200,6 +200,22 @@ img {
   padding: 2px 10px;
 }
 
+.works-container a {
+  font-size: 17px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #4053FC;
+  margin-top: 20px;
+  border-radius: 10px;
+  width: fit-content;
+  padding: 10px;
+}
+
+.works-container a:hover {
+  text-decoration: none;
+  background-color: #6070ff;
+}
+
 /* .headline > * {
   border: 1px solid red;
 } */
