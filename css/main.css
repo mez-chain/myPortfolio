@@ -224,7 +224,81 @@ img {
 }
 
 /* style for about me section */
+.aboutme {
+  display: grid;
+  background-color: #fff;
+  grid-template-columns: 2fr 3fr;
+  gap: 50px;
+  padding-top: 100px;
+  margin-top: 100px;
+  border-top-right-radius: 80px;
+}
 
+.general-info {
+border: 1px solid red;
+}
+
+.general-info h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #091e42;
+  text-transform: capitalize;
+}
+
+.general-info p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #344563;
+}
+
+.general-info h3 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #7f8cff;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.tech-info {
+  padding-right: 100px;
+}
+
+.tech-info ul {
+  display: grid;
+  gap: 40px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #344563;
+  text-transform: capitalize;
+}
+
+.closed {
+  border-bottom: 1px solid #dfe1e6;
+}
+
+.tech-info img {
+  width: 48px;
+}
+
+.tech-info .open {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  width: fit-content;
+  font-size: 15px;
+  font-weight: 500;
+  color: #253858;
+}
+
+.tech-info .open li {
+  background-color: #f7f7f9;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.no-border {
+  border: 0px;
+}
 
 /* .headline > * {
   border: 1px solid red;
